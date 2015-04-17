@@ -83,11 +83,13 @@ class Frame {
 			// Mark the frame as a strike if it is one.
 			if ( $try_attempt == 1 && $this->score == 10 ) {
 				$try->is_a_strike = true;
+				$this->is_a_strike = true;
 			}
 
 			// Mark the frame as a spare if it is one.
 			if ( $try_attempt == 2 && $this->score == 10 ) {
 				$try->is_a_spare = true;
+				$this->is_a_spare = true;
 			}
 
 			$this->tries[] = $try;
