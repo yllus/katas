@@ -119,8 +119,8 @@ $line = new Line($arr_frames);
 $line->display_score();
 
 echo "RANDOM GAME: \n";
-$arr_frames_strikes = [[8, 2], [9, 1], [7, 3], [10], [7, 2], [8, 1], [8, 2], [10], [8, 1], [8, 2, 9]];
-$line = new Line($arr_frames_strikes);
+$arr_frames_random = [[8, 2], [9, 1], [7, 3], [10], [7, 2], [8, 1], [8, 2], [10], [8, 1], [8, 2, 9]];
+$line = new Line($arr_frames_random);
 $line->display_score();
 
 echo "STRIKES ONLY: \n";
